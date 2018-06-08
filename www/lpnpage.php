@@ -45,7 +45,7 @@
   <nav class="header navbar-expand-sm navbar navbar-light">
     <div class="col-sm-2"></div>
     <div class="col-sm-10">
-    <a href="index.php" class="navbar-brand"><h1 class="display-1">Learn Prolog Now!</h1></a>
+    <a href="index.php" class="navbar-brand"><h1 class="display-3">Learn Prolog Now!</h1></a>
     </div>
   </nav>
   <div class="subheader navbar  navbar-expand-sm navbar-dark d-flex align-items-center flex-row-reverse">
@@ -66,7 +66,7 @@
   <div class="portal-container container-fluid">
     <div class="row">
         <!-- NAVIGATION BAR -->
-      <div class="col-sm-2 pt-3 sidebar">
+      <div class="col-lg-2 col-sm-4 col-md-3 pt-3 sidebar">
       <?php
 
         include "navbar.php";	
@@ -75,7 +75,7 @@
         ?>
       </div>
       <!-- MAIN CONTENT -->
-      <div class="col-sm-10 content pt-3 pl-sm-5">
+      <div class="col-lg-10 col-sm-8 col-md-9 content pt-3 pl-sm-5">
           <?php
             if ($pagetype == "website")
                 include $pageid.".php";

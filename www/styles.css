@@ -6755,27 +6755,28 @@ body {
 .header-spacer {
   position: fixed;
   top: 0;
-  height: 44px;
+  height: 28px;
   background-color: #ffcc33;
   width: 100%; }
 
 .header {
   position: fixed;
   width: 100%;
-  top: 44px;
+  top: 28px;
   height: 92px;
   background-color: #ffcc33;
   /* #b71c1c */
   z-index: 4; }
 
 .navbar-brand {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-bottom: -2rem; }
 
 .subheader {
   background-color: #ff9900;
   /* #7f0000 */
   position: fixed;
-  top: 136px;
+  top: 120px;
   height: 32px;
   width: 100%;
   box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
@@ -6790,14 +6791,14 @@ body {
   color: rgba(0, 0, 0, 0.83); }
 
 .portal-container {
-  margin-top: 168px;
+  margin-top: 152px;
   width: 100%;
-  height: calc(100vh - 222px);
+  height: calc(100vh - 206px);
   overflow: auto; }
 
 .sidebar {
   background-color: #820707;
-  min-height: calc(100vh - 222px); }
+  min-height: calc(100vh - 206px); }
 
 @media (min-width: 1200px) {
   .sidebar {
