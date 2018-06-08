@@ -36,14 +36,17 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
   integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
   crossorigin="anonymous">
-  <link href="lpn_reds2.css" rel="stylesheet" type="text/css">
+  <link href="styles.css" rel="stylesheet" type="text/css">
 
   </head>
 
   <body>
-  <nav class="header navbar-expand-lg navbar navbar-dark">
-    <a href="index.php" class="navbar-brand">Learn Prolog Now!</a>
-    
+  <div class="header-spacer">
+  <nav class="header navbar-expand-sm navbar navbar-light">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10">
+    <a href="index.php" class="navbar-brand"><h1 class="display-1">Learn Prolog Now!</h1></a>
+    </div>
   </nav>
   <div class="subheader navbar  navbar-expand-sm navbar-dark d-flex align-items-center flex-row-reverse">
     <div class="collapse navbar-collapse">

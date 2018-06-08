@@ -1,0 +1,70 @@
+$primary-header-color:#ffcc33;
+$secondary-header-color:#ff9900;
+$header-spacer-height: 44px;
+$header-height: 92px;
+$subheader-height:32px;
+$footer:54px;
+$margin: $subheader-height + $header-height + $header-spacer-height;
+
+body {
+	min-width: 400px;
+}
+
+.header-spacer{
+	position: fixed;
+	top:0;
+	height: $header-spacer-height;
+	background-color:$primary-header-color;
+	width: 100%;
+}
+
+.header {
+	position: fixed;
+	width: 100%;
+	top: $header-spacer-height;
+	height: $header-height;
+	background-color:$primary-header-color;/* #b71c1c */ 
+	z-index: 4;
+}
+
+.navbar-brand{
+	font-size: 2rem;
+}
+
+.subheader {
+	background-color:$secondary-header-color; /* #7f0000 */
+	position: fixed;
+	top:$header-height + $header-spacer-height;
+	height: $subheader-height;
+	width: 100%;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+	z-index: 3;
+}
+
+.subheader .nav-link{
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
+}
+
+.subheader .navbar-nav .nav-link{
+	font-size: 0.8rem;
+	color: rgba(0, 0, 0, 0.83);
+}
+
+.portal-container {
+	margin-top: $margin ;
+	width: 100%;
+	min-height: calc(100vh - #{$margin + $footer});
+	overflow: auto;
+}
+
+.footer {
+	border-top: 1px solid #ddd;
+	/* background-color:  #546e7a; */
+	min-height: $footer;
+	z-index: 2;
+}
+
+.link-light {
+	color: rgba(255, 255, 255, 0.8);
+}

@@ -4,3 +4,5 @@
 text/lpn-html.*
 text/chap*-*.ps
 www/html
+www/.sass-cache
+**/node_modules/**
