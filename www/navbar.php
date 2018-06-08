@@ -23,14 +23,14 @@
 
 	function make_menuitem($item,$pageid)
         {
-	      echo "<li>";
+	      echo '<li class="nav-item">';
 	      if ($item[0] == $pageid)
 	      {
-	         echo "> ".$item[1];
+			echo '<a class="nav-link active" href="lpnpage.php?pageid='.$item[0].'">'.$item[1].'</a>';
 	      }
 	      else
 	      {
-	         echo "<a href=\"lpnpage.php?pageid=".$item[0]."\">".$item[1]."</a>";
+	         echo '<a class="nav-link" href="lpnpage.php?pageid='.$item[0].'">'.$item[1].'</a>';
 	      } 
 
 	      if (is_decendant($pageid,$item) && count($item) > 2 && count($item[2]) > 0)
@@ -69,7 +69,7 @@
 	$menu[] = array("thanks","Thanks!",array());
 	$menu[] = array("contact","Contact us",array());
 
-	echo "<ul>";
+	echo '<ul class="nav flex-column">';
 
 	   foreach ($menu as $item)
 	   {

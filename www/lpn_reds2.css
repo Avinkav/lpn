@@ -1,142 +1,50 @@
-
 body {
-	background-color:#ffffff; 
- 	min-width: 500pt;
+	min-width: 400px;
 }
 
-
-div.coloredbar {
-	background-color:#ffcc33; 
-	margin:0pt; 
-	padding:10pt; 
-	height:50pt;
-} 
-
-div.lpnheader {
-	background-color:#ffcc33; 
-	margin:0pt; 
-	padding:10pt; 
-	text-align:left; 
-	font-family:Helvetica,sans-serif; 
-	font-size:300%;
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	height: 62px;
+	background-color:#b71c1c ;
+	z-index: 4;
 }
 
-.lpnheader a {
-	color:black;
-	font-family:Helvetica,sans-serif; 
-	text-decoration:none;
+.subheader {
+	background-color: #7f0000;
+	position: fixed;
+	top:62px;
+	height: 32px;
+	width: 100%;
+	box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.6);
+	z-index: 3;
 }
 
-div.authorbar {
-	background-color:#ff9900; 
-	margin:0pt; 
-	padding:7pt; 
-	text-align:right; 
-	font-family:Helvetica,sans-serif; 
-	font-size:100%;
-}	
-
-.authorbar a {
-	color:black;
-	font-family:Helvetica,sans-serif; 
-	text-decoration:none;
+.subheader .nav-link{
+	padding-top: 0.2rem;
+	padding-bottom: 0.2rem;
 }
 
-div.navbar {
-	float:left; 
-	background-color:#990000; 
-	color:#ffffff;
-	width:150pt; 
-	%overflow:hidden;
-	margin:0pt; 
-	height:400pt; 
-	padding-top:20pt; 
-	font-family:Helvetica,sans-serif;
+.subheader .navbar-nav .nav-link{
+	font-size: 0.8rem;
+	color: rgba(255, 255, 255, 0.83);
 }
 
-.navbar ul {
-	margin-left:0pt; 
-	padding-left:0pt;
+.portal-container {
+	margin-top: 94px;
+	width: 100%;
+	min-height: calc(100vh - 148px);
+	overflow: auto;
 }
 
-.navbar li {
-	list-style:none; 
-	margin:10pt 0pt 10pt 8pt;
+.footer {
+	background-color:  #546e7a;
+	width: 100%;
+	min-height: 54px;
+	z-index: 2;
 }
 
-.navbar li li {
-	margin:3pt 0pt 3pt 15pt;
-	font-size:90%;
-}
-
-div.content {
-	padding:20pt; 
-	padding-left:10pt; 
-	margin-left:170pt;
-	font-family:Helvetica,sans-serif;
-	font-size:80%;
-	overflow:visible;
-}
-
-.content td {
-	font-size:80%;
-}
-
-div.foot {
-	clear:both;
-	padding-top:10pt;
-	font-family:Helvetica,sans-serif;
-	font-size:80%;
-}
-
-div.tracker {
-	float:right;
-	width:50pt;
-}
-
-.content a {
-	color:#990000; %black;
-}
-
-.content h1 {
-	color:#ff9900;
-}
-
-.navbar a {
-	color:#ffffff;
-	font-family:Helvetica,sans-serif; 
-	text-decoration:none;
-}
-
-div.newsbox {
-	float:right;
-	width:180pt;
-	border:3px solid #ff9900; %#990000;
-	padding:10px;
-	margin-right:-10pt;
-	margin-left:20pt;
-	margin-bottom:20pt;
-}
-
-div.newsbar {
-	width:180pt;
-	background-color:#ff9900; %#990000;
-	padding:10px;
-	margin: -10px;
-	margin-bottom: 10px;
-	color:#ffffff;
-	font-size:150%;
-}
-
-.emph {
-	color:#990000;
-}
-
-pre {
-	font-size:130%;
-	overflow:visible;
-}
-
-span.code{
-	font-family:'courier';
+.link-light {
+	color: rgba(255, 255, 255, 0.8);
 }
