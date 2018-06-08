@@ -75,7 +75,7 @@
         ?>
       </div>
       <!-- MAIN CONTENT -->
-      <div class="col-sm-10 content pt-3">
+      <div class="col-sm-10 content pt-3 pl-sm-5">
           <?php
             if ($pagetype == "website")
                 include $pageid.".php";

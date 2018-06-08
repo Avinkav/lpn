@@ -26,7 +26,7 @@
 	      echo '<li class="nav-item">';
 	      if ($item[0] == $pageid)
 	      {
-			echo '<a class="nav-link active">'.$item[1].'</a>';
+			echo '<a class="nav-link active" href="#"> >'.$item[1].'</a>';
 			// echo '<a class="nav-link active" href="lpnpage.php?pageid='.$item[0].'">'.$item[1].'</a>';
 	      }
 	      else
