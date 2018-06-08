@@ -33,7 +33,9 @@
   <head>
 
   <title>Learn Prolog Now!</title>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" 
+  integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" 
+  crossorigin="anonymous">
   <link href="lpn_reds2.css" rel="stylesheet" type="text/css">
 
   </head>
@@ -81,7 +83,8 @@
     </div>
   </div>
 <!-- FOOTER -->
-<div class="footer container-fluid ">
+<div class="mx-3">
+<div class="footer container-fluid">
   <div class="container py-1 d-flex align-items-baseline">
   <div class="tracker mr-3">
     <div id="eXTReMe"><a href="http://extremetracking.com/open?login=lpntwo">
@@ -108,15 +111,12 @@
   </div>
     &copy 2006-2018 
     <nav class="nav">
-    <a class="nav-link link-light" href="http://www.patrickblackburn.org/">Patrick Blackburn</a> 
-    <a class="nav-link link-light" href="http://www.let.rug.nl/bos/">Johan Bos</a> 
-    <a class="nav-link link-light" href="http://cs.union.edu/~striegnk/">Kristina Striegnitz</a>
+    <a class="nav-link" href="http://www.patrickblackburn.org/">Patrick Blackburn</a> 
+    <a class="nav-link" href="http://www.let.rug.nl/bos/">Johan Bos</a> 
+    <a class="nav-link" href="http://cs.union.edu/~striegnk/">Kristina Striegnitz</a>
     </nav>
 </div>
 </div>
-
-
-
-  </body>
-
+</div>
+</body>
 </html>

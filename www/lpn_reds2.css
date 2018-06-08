@@ -39,8 +39,8 @@ body {
 }
 
 .footer {
-	background-color:  #546e7a;
-	width: 100%;
+	border-top: 1px solid #ddd;
+	/* background-color:  #546e7a; */
 	min-height: 54px;
 	z-index: 2;
 }
